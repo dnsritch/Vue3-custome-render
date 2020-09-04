@@ -1,14 +1,13 @@
-import { h, defineComponent } from "@vue/runtime-core"
+import { h, defineComponent } from "@vue/runtime-core";
 
-import planeImg from '../../assets/plane.png';
+import planeImg from "../../assets/plane.png";
 
 export default defineComponent({
-    setup(props) {
-        console.log(props.x)
-
-    },
-    render(ctx) {
-        console.log(ctx)
-        return h('Sprite', { texture: planeImg })
-    }
-})
+  setup(props) {
+    // console.log(props)
+  },
+  render(ctx) {
+    // console.log(ctx)
+    return h("Sprite", { texture: planeImg, width: 100, height: 150 })
+  },
+});
