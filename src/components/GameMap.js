@@ -39,8 +39,8 @@ export default defineComponent({
   },
   render(ctx) {
     return h("Container", [
-      h("Sprite", { texture: mapImg, y: ctx.first }),
-      h("Sprite", { texture: mapImg, y: ctx.second }),
+      // h("Sprite", { texture: mapImg, y: ctx.first }),
+      // h("Sprite", { texture: mapImg, y: ctx.second }),
     ]);
   },
 });

@@ -4,8 +4,8 @@ export default {
         height: 1080
     },
     plane: {
-        width: 258,
-        height: 364,
+        width: 150,
+        height: 250,
         speed: 5
     }
 }

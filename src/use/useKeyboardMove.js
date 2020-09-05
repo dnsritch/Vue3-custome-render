@@ -79,7 +79,7 @@ export const useKeyboardMove = ({ x, y, speed }) => {
         if (index !== -1) {
             commandList.splice(index, 1)
         }
-        console.log(commandList.length)
+        // console.log(commandList.length)
     }
 
 
